@@ -39,14 +39,11 @@
     align-items: center; 
 }
 #wrap #container .card .card1 .img_g .card1_02_img img {width: 700px;}
-#wrap #container .card .card1 .img_g .card1_02_img p {
-    text-align: center; float: right;
-}
+#wrap #container .card .card1 .img_g .card1_02_img p {text-align: center;}
+#wrap #container .card .card1 .img_g .card1_02_img p em {color: #EDD100; font-weight: 500;}
 #wrap #container .card .card2 {}
 #wrap #container .card .card2 .card_title {display: flex; flex-flow: column nowrap; gap: 20px;}
-#wrap #container .card .card2 .card_title h2 {font-size: 1.25rem; font-weight: 500;}
-#wrap #container .card .card2 .card_title .sub_title {line-height: 150%;}
-#wrap #container .card .card2 .card_title .sub_title em {font-weight: 500;}
+#wrap #container .card .card2 .card_title h2 {font-size: 1.25rem; font-weight: 500; line-height: 150%;}
 #wrap #container .card .card2 .card_txt {margin-bottom: 40px;}
 #wrap #container .card .card2 .card_txt li {font-size: 1.063rem; margin: 15px;}
 #wrap #container .card .card2 h2 {font-size: 1.25rem; font-weight: 500;}
@@ -63,6 +60,6 @@
     background-color: #eee; height: 200px;
     font-weight: 400; text-align: center; line-height: 200%;
 }
-#wrap h3 em {font-weight: 600;}
+#wrap h3 em {font-weight: 600; color: #1913E3;}
 #wrap .footer {margin: 0 auto; padding: 20px;}
 #wrap .footer p {}
