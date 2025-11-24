@@ -1,0 +1,68 @@
+#wrap {display: flex; flex-flow: column nowrap; gap: 150px;}
+#wrap .header {
+    display: flex; align-items: flex-start; justify-content: space-between; align-items: center;
+    padding: 20px 80px;
+    border-bottom: 1px solid #000;
+}
+#wrap .header .logo img {width: 300px; height: 50px;}
+#wrap .header .submenu {
+    display: flex; flex-flow: row nowrap; gap: 20px;
+}
+#wrap .header .submenu p {}
+#wrap .header img {width: 30px; height: 30px;}
+#wrap #container {display: flex; flex-flow: column nowrap; gap: 50px;}
+#wrap #container .title {display: flex; align-items: flex-start; justify-content: space-between; padding: 0 240px;}
+#wrap #container .title .title_left {}
+#wrap #container .title .title_left h1 {
+    font-weight: 600; font-size: 2.5rem; margin-bottom: 10px;
+}
+#wrap #container .title .title_left p {}
+#wrap #container .title button {
+    border: 1px solid #000; padding: 15px 40px; border-radius: 10px;
+}
+#wrap #container .card {display: flex; flex-flow: column nowrap; gap: 100px; padding: 0 240px;}
+#wrap #container .card .card1 {}
+#wrap #container .card .card1 .card_title {
+    display: flex; flex-flow: column nowrap; gap: 20px;
+}
+#wrap #container .card .card1 .card_title h2 {
+    font-size: 1.25rem; font-weight: 500; 
+}
+#wrap #container .card .card1 .card_txt {margin-bottom: 40px;}
+#wrap #container .card .card1 .card_txt li {
+    font-size: 1.063rem; margin: 15px;
+}
+#wrap #container .card .card1 .img_g {}
+#wrap #container .card .card1 .img_g img {width: 100%; height: 300px; margin-bottom: 20px;}
+#wrap #container .card .card1 .img_g .card1_02_img {
+    display: flex; flex-flow: row nowrap; gap: 20px;
+    align-items: center; 
+}
+#wrap #container .card .card1 .img_g .card1_02_img img {width: 700px;}
+#wrap #container .card .card1 .img_g .card1_02_img p {
+    text-align: center; float: right;
+}
+#wrap #container .card .card2 {}
+#wrap #container .card .card2 .card_title {display: flex; flex-flow: column nowrap; gap: 20px;}
+#wrap #container .card .card2 .card_title h2 {font-size: 1.25rem; font-weight: 500;}
+#wrap #container .card .card2 .card_title .sub_title {line-height: 150%;}
+#wrap #container .card .card2 .card_title .sub_title em {font-weight: 500;}
+#wrap #container .card .card2 .card_txt {margin-bottom: 40px;}
+#wrap #container .card .card2 .card_txt li {font-size: 1.063rem; margin: 15px;}
+#wrap #container .card .card2 h2 {font-size: 1.25rem; font-weight: 500;}
+#wrap #container .card .card2 .img_g {margin-top: 40px;}
+#wrap #container .card .card2 .img_g img {}
+#wrap #container .card .card3 {}
+#wrap #container .card .card3 .card_title {display: flex; flex-flow: column nowrap; gap: 20px;}
+#wrap #container .card .card3 .card_title h2 {font-size: 1.25rem; font-weight: 500; line-height: 150%;}
+#wrap #container .card .card3 .card_txt {margin-bottom: 40px;}
+#wrap #container .card .card3 .card_txt li {font-size: 1.063rem; margin: 15px;}
+#wrap #container .card .card2 .img_g {}
+#wrap #container .card .card2 .img_g img {}
+#wrap h3 {
+    background-color: #eee; height: 200px;
+    font-weight: 400; text-align: center; line-height: 200%;
+}
+#wrap h3 em {font-weight: 600;}
+#wrap .footer {margin: 0 auto; padding: 20px;}
+#wrap .footer p {}
